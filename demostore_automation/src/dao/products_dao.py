@@ -17,7 +17,7 @@ class ProductsDAO:
         """
 
         logger.info(f"Getting random products from db. qty= {qty}")
-        sql = f"""SELECT ID, post_title, post_name FROM localdemostore.wp_posts 
+        sql = f"""SELECT ID, post_title, post_name FROM {self.db_helper.database}.{self.db_helper.table_prefix}posts 
         WHERE post_type = 'product' LIMIT 500;"""
 
         rs_sql = self.db_helper.execute_select(sql)

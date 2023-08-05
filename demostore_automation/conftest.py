@@ -10,14 +10,14 @@ from selenium.webdriver.firefox.options import Options as FFOptions
 @pytest.fixture(scope="class")
 def init_driver(request):
 
-    supported_browsers = ['chrome', 
+    supported_browsers = ('chrome', 
                           'ch', 
                           'headlesschrome', 
                           'remote_chrome', 
                           'firefox', 
                           'ff', 
                           'headlessfirefox', 
-                          'remote_firefox']
+                          'remote_firefox')
 
     browser = os.environ.get('BROWSER', None)
     if not browser:

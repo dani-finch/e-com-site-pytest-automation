@@ -1,3 +1,4 @@
 tsy.py
 local_variables
 demostore_automation/tests/__pycache__/
+*.html
