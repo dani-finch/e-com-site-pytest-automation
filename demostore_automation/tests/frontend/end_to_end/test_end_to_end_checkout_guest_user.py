@@ -18,7 +18,6 @@ pytestmark = [pytest.mark.feregression, pytest.mark.fesmoke, pytest.mark.end_to_
 class TestEndToEndCheckoutGuestUser:
 
     @pytest.mark.tcid33
-    @pytest.mark.pioneertcid3
     def test_end_to_end_checkout_guest_user(self):
         # create objects
         home_page = HomePage(self.driver)
