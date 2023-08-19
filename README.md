@@ -1,2 +1,2 @@
 # e-com-site-pytest-automation
-Repository including automation tests using Pytest.
+Repository containing automation tests using Pytest.

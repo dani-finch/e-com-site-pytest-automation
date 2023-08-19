@@ -10,7 +10,7 @@ class SeleniumExtended:
 
     def __init__(self, driver):
         self.driver = driver
-        self.default_timeout = 5
+        self.default_timeout = 10
 
     def wait_and_input_text(self, locator, text, timeout=None):
         timeout = timeout if timeout else self.default_timeout
