@@ -1,4 +1,1 @@
-demostore_automation/report_7-29-23_1.html
-demostore_automation/tests/__pycache__/
-local_variables/
-tsy.py
+local_variables
